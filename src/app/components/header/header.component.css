@@ -1,0 +1,15 @@
+.admin-tool-bar {
+  background-color: #344CB0;
+  color: #fff;
+  margin: 0px;
+  padding: 10px 0px;
+  width: 38%;
+  margin: auto;
+  border-radius: 2px;
+  padding: 10px 15px;
+  font-size: 15px;
+}
+
+body {
+    margin: 0px !important;
+}

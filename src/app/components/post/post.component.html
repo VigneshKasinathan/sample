@@ -1,0 +1,26 @@
+<div class="container">
+  <form name="frmRegister" (submit)="onAddPost(postForm)" #postForm="ngForm">
+    <div class="admin-form">
+      <!--admin form-->
+      <div>
+        <input type="text" class="admin-form-title" name="title" ngModel required minlength="3" #title="ngModel"/>
+        <p *ngIf="title.invalid">please enter a post title</p>
+      </div>
+  
+      <div>
+         <textarea class="admin-form-text" name="content" ngModel required #content="ngModel"></textarea>
+         <p *ngIf="content.invalid">please enter a post title</p>
+      </div>
+      <!--save post-->
+      <button type="submit" class="admin-btn">Save Post</button>
+      <p>{{ newPost }} </p>
+  
+     <!--post-list--> 
+     <!--admin form--> 
+    </div>
+  </form>
+    
+ 
+</div>
+
+

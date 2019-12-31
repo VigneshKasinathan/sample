@@ -1,0 +1,32 @@
+
+::ng-deep .card {
+  background: #ccc;
+}
+
+::ng-deep button.btn.btn-link.collapsed {
+    color: #171717;
+}
+
+.card {
+    background: #ccc;
+    padding: 5px 0px;
+    margin-top: 30px;
+}
+
+.post-list-form {
+  width:40%;
+  margin: auto;
+}
+
+.post-list-accordian {
+  color: red;
+  font-size: 17px;
+  padding-left: 15px;
+  font-weight: 600;
+}
+
+
+.edit-list {
+  background-color: blanchedalmond;
+  color: red;
+}
